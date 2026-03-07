@@ -71,7 +71,7 @@ interface ProjectCardProps {
 }
 
 function ProjectCard({ title, description, link, tags, delay = 0 }: ProjectCardProps) {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLAnchorElement>(null);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
