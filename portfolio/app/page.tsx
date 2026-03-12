@@ -132,7 +132,7 @@ function GitHubRepos() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  // 👉 CHANGE "yourusername" to your actual GitHub username!
+ 
   const GITHUB_USERNAME = "dbro-10";
 
   useEffect(() => {
@@ -232,8 +232,7 @@ function ContactForm() {
 
     setStatus("sending");
 
-    // ✅ This simulates sending — replace with a real service later
-    // (e.g. Formspree, EmailJS, or a Next.js API route)
+  
     await new Promise((res) => setTimeout(res, 1500));
     setStatus("sent");
   };
@@ -340,7 +339,8 @@ export default function Home() {
         <p className="text-gray-400 text-lg leading-relaxed">
           I'm a software developer focused on building useful tools, automation systems,
           and modern web applications. My main language is Python, and I enjoy creating
-          projects that solve real problems.
+          projects that solve real problems. I've started taking a liking to Java and many other software engineering tools.
+          Full-stack deployment of my current projects have been great fun and i look forward to creating and sharing more.
         </p>
 
         {/* Tech stack badges */}
@@ -377,14 +377,13 @@ export default function Home() {
             delay={0}
           />
 
-          {/* Uncomment and fill in when your next project is ready */}
-          {/* <ProjectCard
-            title="Your Next Project"
-            description="Description here."
-            link="#"
-            tags={["Python"]}
-            delay={150}
-          /> */}
+          <ProjectCard
+            title="cook-it"
+            description="cook-it is an AI powered web application that tailor's to your cooking needs. this application allows users to type what ingredients they have, select filters based on their dietary needs and equipment. once complete a recipe and cooking instructions will be generated."
+            link="https://cook-it-web-app.vercel.app/"
+            tags={["Next.js", "React", "API", "AI", "Full-Stack"]}
+            delay={100}
+          />
         </div>
       </section>
 
