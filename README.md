@@ -1,0 +1,9 @@
+(For transparancy my theroy background has come from websites such as Tryhackme, Hackthebox and primarly for progamming: Codecademy. for actually building my projects have levraged my own knowldge, Youtube and diffrent AI apps to create, debug, analyse, and style my portfolio)
+
+hi, welcome to my portfolio, here is a space i have created to upload more of my projects that ill continue to work on to improve my ablities as a software engineer. 
+
+the main portfolio folder i have included contaians the contents of a website i have depolyed via Vercel. to do this i had to learn more about what Git, Github, Next.js, React, TypeScript, Tailwind CSS and Vercel were all about. To do this i first researcherd around social media and google to see what junior devleopers have already made. from this i found a user who had created a website that contains projects he had made which i liked the look and idea of. From this it led me onto digging deeper about how the website was created and howe could i create my own! 
+
+im finding by creating these projects im applying more what ive learned in theory and seeing it in real world examples. Before creating this project i had never been exposed to Next.js, React, TypeScript, Tailwind CSS and Vercel. after using them all to build a website ive gained much more information and exposure to new tools.
+Before i could get started i had to download a few things and that was Node and Git. i hadnt realised before that node is basically the package that allows you to run comands such as npm it gives you the ability to use Next.js and React.
+After using Next.js ive learnt thats its great for doing all of the "boring" bits it takes to make a site. it also handles the running of a local server, and the heavy lifting of getting a website to actully run and work with React. 
